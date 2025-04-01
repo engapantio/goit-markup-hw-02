@@ -44,6 +44,10 @@ body {
   font-weight: 500;
 }
 
+.menu .link {
+  color: #2e2f42;
+}
+
 .contacts {
   font-style: normal;
 }
@@ -80,7 +84,7 @@ body {
 
 .btn:hover,
 .btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .sub-headline {
