@@ -1,7 +1,6 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  width: 1440px;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
   line-height: 21px;
 }
@@ -15,12 +14,12 @@ body {
 }
 
 .link:hover,
-.link:focus {
-  color: #4d5ae5;
+.link:focus,
+.link:active {
+  color: #404bbf;
 }
 
 .top-line {
-  border-bottom: 1px solid #e7e9fc;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -30,14 +29,15 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-left: 156px;
+  color: #4d5ae5;
 }
 
-.web {
-  color: #4d5ae5;
+.studio-top {
+  color: #2e2f42;
 }
 
 .menu {
@@ -45,28 +45,30 @@ body {
 }
 
 .contacts {
-  color: #434455;
   font-style: normal;
+}
+
+.contact-link {
+  color: #434455;
 }
 
 .hero-image {
   background-color: #2e2f42;
-  height: 600px;
 }
 
 .headline {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .btn {
-  box-shadow: 0 4px 4px 0 rgba(0 0 0 0.15);
   background: #4d5ae5;
   color: #fff;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -74,7 +76,6 @@ body {
   cursor: pointer;
   margin-left: 636px;
   margin-bottom: 188px;
-  padding: 16px 32px;
 }
 
 .btn:hover,
@@ -85,9 +86,11 @@ body {
 .sub-headline {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-values {
@@ -101,6 +104,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .value-descr,
@@ -110,7 +114,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .staff {
@@ -122,9 +125,11 @@ body {
   text-align: center;
 }
 
-.page-ending,
-.page-ending .logo {
+.page-ending {
   background-color: #2e2f42;
+}
+
+.studio-bottom {
   color: #f4f4fd;
 }
 
