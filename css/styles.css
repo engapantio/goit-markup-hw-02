@@ -48,6 +48,11 @@ body {
   color: #2e2f42;
 }
 
+.menu .link:hover,
+.menu .link:focus {
+  color: #404bbf;
+}
+
 .contacts {
   font-style: normal;
 }
