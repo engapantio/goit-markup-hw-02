@@ -14,6 +14,11 @@ body {
   text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+  color: #4d5ae5;
+}
+
 .top-line {
   border-bottom: 1px solid #e7e9fc;
   font-size: 16px;
@@ -31,11 +36,11 @@ body {
   margin-left: 156px;
 }
 
-.logo > span {
+.web {
   color: #4d5ae5;
 }
 
-.menu . {
+.menu {
   font-weight: 500;
 }
 
@@ -66,6 +71,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-left: 636px;
+  margin-bottom: 188px;
+  padding: 16px 32px;
 }
 
 .btn:hover,
@@ -73,11 +82,52 @@ body {
   color: #404bbf;
 }
 
-.page-ending {
+.sub-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.our-values {
+  visibility: hidden;
+}
+
+.value,
+.staff-member,
+.project {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.value-descr,
+.staff-title,
+.project-type,
+.slogan {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.staff {
+  background-color: #f4f4fd;
+}
+
+.staff-card {
+  background-color: #fff;
+  text-align: center;
+}
+
+.page-ending,
+.page-ending .logo {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
 
-.page-ending > .logo span {
+.slogan {
   color: #f4f4fd;
 }
